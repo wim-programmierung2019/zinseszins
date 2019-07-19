@@ -1,4 +1,4 @@
-import java.util.Scanner; 
+
 public class Main {
     
     /**
@@ -24,7 +24,7 @@ public class Main {
             System.out.println("Ausgangswert: " + Ausgangswert);
             System.out.println("Zinssatz: " + zinssatz);
             System.out.println("Neuer Wert: " + neuerwert);
-            Ausgangswert = neuerwert;
+            Ausgangswert += neuerwert;
             
         }
     
