@@ -10,12 +10,11 @@ public class Main {
         double Zinssatz = 1.02;
         double Ausgangswert = 100;
         double Zeitraum = 5;
-        double Zwischenwert;
         
         for(int i=1; i<= Zeitraum; i++){
-            Zwischenwert =  Ausgangswert * Zinssatz;
-            System.out.println("Jahr " + i + " Zwischenwert " + Zwischenwert);
-            Ausgangswert = Zwischenwert;
+            Ausgangswert =  Ausgangswert * Zinssatz;
+            System.out.println("Jahr " + i + " Zwischenwert " + Ausgangswert);
+            
         }
     }
 }
