@@ -7,15 +7,14 @@ public class Main {
         // Berechnen Sie den Zinseszins für einen festgelegten 
         // Zinssatz, Ausgangswert und Zeitraum. 
         // Geben Sie die Zwischenwerte für jedes Jahr auf der Konsole aus.
-        double Zinssatz = 1.02;
-        double Ausgangswert= 100;
-        double Zeitraum = 5;
-        double Zwischenwert;
+
+        double zinssatz = 1.02;
+        double wert = 100;
+        double zeitraum = 5;
         
-        for(int i=1; i<=Zeitraum; i++){
-            Zwischenwert = Ausgangswert * Zinssatz;
-            System.out.println("Jahr "+ i + "Zwischenwert " + Zwischenwert);
-            Ausgangswert = Zwischenwert;     
-            }
-          }
+        for(int i=1; i<= zeitraum; i++){
+            wert =  wert * zinssatz;
+            System.out.println("Jahr " + i + " Zwischenwert " + wert);
+        }
     }
+}
