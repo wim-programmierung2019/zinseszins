@@ -14,7 +14,7 @@ public class Main {
                 
         for(int i=1; i<Zeitraum; i++){
             Ausgangswert = Ausgangswert*Zinssatz;
-            System.out.println("Jahr" + i + "Der Ausgangswert ist: " + Ausgangswert);
+            System.out.println("Jahr" + i + " Der Ausgangswert ist: " + Ausgangswert);
         }
     }
 }
